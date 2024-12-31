@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export WANDB_PROJECT_NAME="<YOUR-PROJECT-NAME>"
+export WANDB_PROJECT_NAME="heron-bench"
 
 PLAYGROUND_PATH="./playground/data/japanese-heron-bench"
 MODEL_CONFIG_PATH="./projects/video_blip/exp001.yml"
