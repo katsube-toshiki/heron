@@ -8,6 +8,7 @@ module load cuda/12.1
 module load cudnn/8.8.1
 
 source ~/heron_bench/bin/activate
+cd ~/projects/heron/
 
 export WANDB_PROJECT_NAME="heron-bench"
 
