@@ -1,4 +1,13 @@
-#!/bin/bash
+#!/bin/sh
+#PJM -L rscgrp=share-short
+#PJM -L gpu=2
+#PJM -g gn53
+#PJM -X
+#PJM -j
+module load cuda/12.1
+module load cudnn/8.8.1
+
+source ~/heron_bench/bin/activate
 
 export WANDB_PROJECT_NAME="heron-bench"
 
