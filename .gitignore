@@ -19,3 +19,6 @@ playground/data/llava-bench-in-the-wild/ja/output/*
 poetry.lock
 
 .env
+
+runscripts/out
+
