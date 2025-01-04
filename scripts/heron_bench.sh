@@ -1,6 +1,6 @@
 #!/bin/sh
 #PJM -L rscgrp=share-short
-#PJM -L gpu=2
+#PJM -L gpu=1
 #PJM -g gn53
 #PJM -X
 #PJM -j
