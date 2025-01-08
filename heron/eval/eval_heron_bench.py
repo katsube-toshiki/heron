@@ -20,7 +20,7 @@ async def get_eval(session, content: str, max_tokens: int):
         "Content-Type": "application/json",
     }
     payload = {
-        "model": "gpt-4o-2024-11-20",
+        "model": "gpt-4-0125-preview",
         "messages": [
             {
                 "role": "system",
